@@ -18,6 +18,8 @@ public class C02Increment {
 		
 		int m = 10;
 		int n = 10;
+		int z = 127789;
+		System.out.println(z);
 		
 		int o = --m; // 연산결과는 9, m이 9가됨
 		int p = n--; // 연산결과는 10, n이 9가 됨

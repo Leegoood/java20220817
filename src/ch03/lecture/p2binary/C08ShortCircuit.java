@@ -19,7 +19,7 @@ public class C08ShortCircuit {
 		// & , | => 발생안함
 		
 		int j = 3;
-		if((j++) < 0 && (j++) > -5) {
+		if((j++) < 0 & (j++) > -5) {
 			System.out.println("j는 -5보다 크고 0보다 작다");
 		}
 		System.out.println("j:" + j);

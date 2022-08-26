@@ -14,7 +14,10 @@ public class C06ComparisonString {
 		String d = "java";
 		String e = "ja";
 		String f = "va";
-		String g = e + f; //"java
+		String g = e + f; //"java"
+		
+		System.out.println(c);
+		System.out.println(g);
 		
 		System.out.println(c == d); //true
 		System.out.println(c == g); //false
