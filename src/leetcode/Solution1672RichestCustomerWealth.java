@@ -3,7 +3,7 @@ package leetcode;
 public class Solution1672RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {
         
-    int sum = 0;
+    	int sum = 0;
         for(int i = 0; i < accounts.length; i++){
         
             int ksum = 0;
