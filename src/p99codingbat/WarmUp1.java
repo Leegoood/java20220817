@@ -15,5 +15,23 @@ public class WarmUp1 {
 
 		return (a == b) ? sum * 2 : sum;
 	}
+	
+	public String backAround(String str) {
+		  char lastChar = str.charAt(str.length()-1);
+		  String res = lastChar + str + lastChar;
+		  
+		  return res; 
+		}
+	
+	public String everyNth(String str, int n) {
+		  String res = "";
+		  
+		  for(int i = 0; i < str.length(); i +=n){
+		    char c = str.charAt(i);
+		    res += c;
+		  }
+		  return res;
+		}
+
 
 }
