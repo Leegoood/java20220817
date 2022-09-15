@@ -13,20 +13,13 @@ public class LambdaExample {
 		return result;
 	}
 	public static void main(String[] args) {
+		
 		// 최대값 얻기
-		
 		int max = maxOrMin((x, y) -> Math.max(x, y));
-		
 		System.out.println("최대값 : " + max);
 		
 		// 최소값 얻기
 		int min = maxOrMin((x,y) -> Math.min(x,y));
-				
-			
-				
-				
-				
-		
 		System.out.println("최소값 : " + min);		
 	}
 }

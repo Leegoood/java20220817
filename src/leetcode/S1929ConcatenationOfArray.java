@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Solution1929ConcatenationOfArray {
+public class S1929ConcatenationOfArray {
 	class Solution {
 	    public int[] getConcatenation(int[] nums) {
 	        int[]res = new int[nums.length * 2];

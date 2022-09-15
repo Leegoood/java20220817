@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Solution1470ShuffleTheArray {
+public class S1470ShuffleTheArray {
 	class Solution {
 	    public int[] shuffle(int[] nums, int n) {
 	        int[] res = new int[nums.length];

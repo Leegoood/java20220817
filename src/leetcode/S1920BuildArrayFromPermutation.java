@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Solution1920BuildArrayFromPermutation {
+public class S1920BuildArrayFromPermutation {
 	class Solution {
 	    public int[] buildArray(int[] nums) {
 	        int[]res = new int[nums.length];

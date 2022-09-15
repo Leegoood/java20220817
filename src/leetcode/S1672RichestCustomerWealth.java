@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Solution1672RichestCustomerWealth {
+public class S1672RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {
         
     	int sum = 0;

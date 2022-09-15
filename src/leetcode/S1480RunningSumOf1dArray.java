@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Solution1480RunningSumOf1dArray {
+public class S1480RunningSumOf1dArray {
 	   public int[] runningSum(int[] nums) {
 	    	int[]res = new int[nums.length];
 	        res[0] = nums[0];

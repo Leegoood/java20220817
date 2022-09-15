@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Solution1684CountTheNumberOfConsistentStrings {
+public class S1684CountTheNumberOfConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
         int cnt = 0;
         for (String word : words) {
